@@ -1,0 +1,70 @@
+section {
+    background-color: whitesmoke;
+    height: 530px;
+    width: 300px;
+    margin: 100px auto;
+}
+
+.chart {
+    height: 85%;
+}
+
+.footer {
+    height: 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+}
+
+.col p {
+    text-align: center;
+}
+
+.line {
+    background-color: #c6c0c0;
+    height: 350px;
+    width: 40px;
+    margin: 30px auto;
+}
+
+.line-30 {
+    background-color: white;
+    animation-name: line-30;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line-30{
+    0% {height: 100%;}
+    100% {height:70%;}
+}
+
+.line-40 {
+    background-color: white;
+    animation-name: line-40;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line-40{
+    0% {height: 100%;}
+    100% {height:60%;}
+}
+
+.line-80 {
+    background-color: white;
+    animation-name: line-80;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line-80{
+    0% {height: 100%;}
+    100% {height:20%;}
+}
